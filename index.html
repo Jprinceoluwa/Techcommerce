@@ -22,16 +22,63 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav class="text-green w-2o h-3o">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-        </ul>
-      </nav>
+    <header class="text-gray-400 bg-gray-900 body-font">
+      <div class="top">
+        <div class="child topFirst">
+          <i class="fa-solid fa-phone fa-2x"></i>
+          <div class="texts">
+            <small>CALL US NOW</small>
+            <big>+234 8881100</big>
+          </div>
+        </div>
+        <div class="child">
+          <form action="">
+            <input type="search" placeholder="Search for Items" class="w-420 pt-2 ">
+            <button class="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </div>
+        <div class="child"></div>
+      </div>
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+        >
+          <img src="./img/logo.png" alt="">
+            <path
+              d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+            ></path>
+          </svg><br>
+          <p class="ml-3 text-xl">TechCommerce</p>
+        </a>
+        <nav
+          class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
+        >
+          <a class="mr-5 hover:text-white cursor-pointer">Home</a>
+          <a class="mr-5 hover:text-white cursor-pointer">Products</a>
+          <a class="mr-5 hover:text-white cursor-pointer">Pages</a>
+          <a class="mr-5 hover:text-white cursor-pointer">Blog</a>
+          <a class="mr-5 hover:text-white cursor-pointer">Contact</a>
+          <a class="mr-5 hover:text-white cursor-pointer">My Account</a>
+        </nav>
+        <button
+          class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+        >
+          Button
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
     </header>
   </body>
 </html>

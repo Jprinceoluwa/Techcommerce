@@ -1,6 +1,27 @@
 :root{
-    --mainColor: #EB1416;
-    --textColor: #000000;
+    --secondaryColor: #EB1416;
+    --bgColor: #000000;
     --colorTwo: #BCA4D5;
-    --bgColor: #FFFBFB;
+    --textColor: #FFFBFB;
+    --mainColor: #1A202C;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    /* background: url(./img/main\ image.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat; */
+}
+header img{
+    display: block;
+    width: 3em;
+}
+.topFirst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texts{
+   display: grid;
 }
