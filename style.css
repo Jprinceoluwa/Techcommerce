@@ -1,10 +1,82 @@
 :root{
-    --secondaryColor: #EB1416;
-    --bgColor: #000000;
-    --colorTwo: #BCA4D5;
+    --secondaryColor: #f9b17a;
+    --colorTwo: #676f9d;
     --textColor: #FFFBFB;
+    --primaryColor: #2D3250;
     --mainColor: #1A202C;
 }
+
+/* Sign Up Page  */
+.formPage{
+    background-color: var(--primaryColor);
+    width: 80%;
+    height: 35em;
+    padding-top: 45px;
+    font-family: poppins;
+}
+.formContainer{
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    width: 20em;
+    height: 33em;
+    background-color: #D9D9D9;
+    padding: 0px 40px;
+    border-radius: 25px;
+    box-shadow: 3px 10px 30px var(--mainColor);
+    
+}
+.formContainer .logo{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    padding-top: 30px;
+}
+.formContainer img{
+    width: 2em;
+    height: 2em;
+    filter: drop-shadow(1px 1px 3px var(--mainColor));
+}
+.formContainer h1{
+    font-size: 2em;
+    font-family: montserrat;
+    color: var(--mainColor);
+    text-shadow: 1px 1px 5px var(--mainColor);
+}
+.formContainer h2{
+    font-size: 1em;
+    font-family: poppins;
+    color: var(--mainColor);
+}
+.signupForm input{
+    width: 21.4em;
+    padding: 14px 18px;
+    outline: none;
+    border: 1px solid var(--mainColor);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.signupForm input[type="submit"]{
+    width: 24em !important;
+    background-color: var(--primaryColor);
+    color: #fff;
+    font-family: poppins;
+}
+.signupForm .login{
+    display: flex;
+    justify-content: space-between;
+    color: var(--mainColor);
+
+}
+.login a{
+    color: var(--mainColor);
+    font-size: 0.9em;
+}
+a{
+    text-decoration: none;
+}
+
 header{
     width: 100%;
     height: 100vh;
