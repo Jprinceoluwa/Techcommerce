@@ -13,6 +13,7 @@
     height: 35em;
     padding-top: 45px;
     font-family: poppins;
+    overflow: hidden;
 }
 .formContainer{
     position: absolute;
@@ -24,6 +25,7 @@
     padding: 0px 40px;
     border-radius: 25px;
     box-shadow: 3px 10px 30px var(--mainColor);
+    z-index: 1;
     
 }
 .formContainer .logo{
@@ -55,13 +57,14 @@
     outline: none;
     border: 1px solid var(--mainColor);
     border-radius: 10px;
-    cursor: pointer;
+    
 }
 .signupForm input[type="submit"]{
     width: 24em !important;
     background-color: var(--primaryColor);
     color: #fff;
     font-family: poppins;
+    cursor: pointer;
 }
 .signupForm .login{
     display: flex;
@@ -75,6 +78,39 @@
 }
 a{
     text-decoration: none;
+}
+.animationSide{
+    position: absolute;
+    right: 10%;
+    top: 23%;
+}
+.animationSide img{
+    width: 20em;
+    border-radius: 20px;
+    animation: loginAnimate 7s linear infinite;
+    opacity: 0;
+    z-index: 10;
+}
+@keyframes loginAnimate {
+    100% {margin-right: -20em; transform: rotate(0deg); opacity: 0;}
+    75% {opacity: 1;}
+    50% {margin-right: 0%; transform: rotate(360deg); opacity: 1;}
+    0% {margin-right: -20em; opacity: 0;}
+}
+.animationSide img:nth-child(1){
+    animation-delay: 3s;
+}
+.animationSide img:nth-child(2){
+    animation-delay: 10s;
+}
+.animationSide img:nth-child(3){
+    animation-delay: 20s;
+}
+.animationSide img:nth-child(4){
+    animation-delay: 31s;
+}
+.animationSide img:nth-child(5){
+    animation-delay: 40s;
 }
 
 header{
