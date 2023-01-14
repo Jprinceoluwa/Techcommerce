@@ -213,3 +213,15 @@ header img{
     transition: .6s ease-in-out;
     color: #fff;
 }
+.featured{
+    display: flex;
+    place-content: center;
+    z-index: 2;
+}
+.featured img{
+    border-radius: inherit;
+    z-index: 0;
+}
+.imageBox{
+    padding-bottom: 50px;
+}
