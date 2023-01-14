@@ -225,3 +225,15 @@ header img{
 .imageBox{
     padding-bottom: 50px;
 }
+.productText{
+    font-size: 2em;
+    font-family: montserrat;
+    color: #000;
+    font-weight: 600;
+}
+.Ptitle{
+    color: var(--mainColor);
+}
+.price{
+    color: var(--primaryColor);
+}
