@@ -206,7 +206,9 @@ header img{
 .heroimg{
     width: 50em;
     height: 100%;
-   
+}
+.herobtns :nth-child(1){
+    background-color: var(--colorTwo);
 }
 .herobtns button:hover{
     background-color: var(--secondaryColor);
@@ -217,23 +219,19 @@ header img{
     display: flex;
     place-content: center;
     z-index: 2;
+    background-color: #676f9d2d;
 }
 .featured img{
     border-radius: inherit;
     z-index: 0;
 }
 .imageBox{
-    padding-bottom: 50px;
-}
-.productText{
-    font-size: 2em;
-    font-family: montserrat;
-    color: #000;
-    font-weight: 600;
+    padding-bottom: 100px;
 }
 .Ptitle{
     color: var(--mainColor);
 }
 .price{
     color: var(--primaryColor);
+    font-size: 1.2em;
 }
