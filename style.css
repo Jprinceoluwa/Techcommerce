@@ -5,7 +5,10 @@
     --primaryColor: #2D3250;
     --mainColor: #1A202C;
 }
-
+*{
+    color: var(--textColor);
+    font-family: poppins;
+}
 /* Sign Up Page  */
 .formPage{
     background-color: var(--primaryColor);
@@ -135,6 +138,9 @@ header img{
     justify-content: center;
     align-items: center;
 }
+.topFirst i{
+    color: var(--secondaryColor);
+}
 .texts{
    display: grid;
    
@@ -145,7 +151,7 @@ header img{
 }
 .topSecond{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .topSecond input{
     width: 40em;
@@ -164,7 +170,8 @@ header img{
 }
 .topThird{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 10px;
 }
 .topThird *{
     width: 3em;
@@ -177,5 +184,32 @@ header img{
     background-color: #fff;
 }
 .cart i{
-    margin: auto;
+    position: relative;
+    left: 30%;
+    top: 35%;
+    color: var(--secondaryColor);
+}
+.herobtn{
+    background-color: var(--secondaryColor);
+    color: #fff;
+    border-radius: 8px;
+}
+.hero{
+    margin-top: -5%;
+}
+.headline{
+    color: var(--secondaryColor);
+    font-family: montserrat;
+    font-weight: 700;
+    margin-top: -10%;
+}
+.heroimg{
+    width: 50em;
+    height: 100%;
+   
+}
+.herobtns button:hover{
+    background-color: var(--secondaryColor);
+    transition: .6s ease-in-out;
+    color: #fff;
 }
