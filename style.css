@@ -231,31 +231,6 @@ header{
     transition: .6s ease-in-out;
     color: #fff;
 }
-.main_container{
-    margin: 6% в в 36%;
-    position: relative;
-    width: 25%}
-    
- .image{
-    display: block;
-    width: 100%;
-    height: auto;
- }
-    
- .overlay{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.75);
-    overflow: hidden;
-    width: 180%;
-    height: 6;
-    transition: .5s ease;
- }
-.overlay:hover{
-    height: 100%;
-}
 
 .featured{
     display: flex;
