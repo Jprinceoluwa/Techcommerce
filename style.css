@@ -228,10 +228,26 @@ header img{
 .imageBox{
     padding-bottom: 100px;
 }
+
+.imageBox a img{
+    transform: scale(0.6);
+}
+.imageBox a img:hover{
+    transform: scale(0.75);
+    transition: 0.9s ease-in-out;
+}
 .Ptitle{
     color: var(--mainColor);
 }
 .price{
     color: var(--primaryColor);
     font-size: 1.2em;
+}
+.buyButton{
+    background-color: #2D3250;
+    padding: 14px 18px;
+    border: none;
+    outline: none;
+    color: #fff;
+    display: none;
 }
