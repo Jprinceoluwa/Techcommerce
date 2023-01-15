@@ -123,15 +123,12 @@ header{
     background-size: auto;
     background-repeat: no-repeat; */
 }
-header img{
-    display: block;
-    width: 3em;
-}
 .top{
     padding-top: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 20px;
 }
 .topFirst{
     display: flex;
@@ -170,7 +167,7 @@ header img{
 }
 .topThird{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 10px;
 }
 .topThird *{
@@ -189,10 +186,29 @@ header img{
     top: 35%;
     color: var(--secondaryColor);
 }
+.navbar-brand img{
+    display: block;
+    width: 1.5em;
+}
+.navbar-brand{
+    display: flex;
+    gap: 10px;
+}
+.navbar-brand span{
+    font-size: 1.2em;
+}
+.navbar-collapse{
+    padding-left: 200px;
+}
+.nav-link{
+    color: #fff;
+}
+
 .herobtn{
     background-color: var(--secondaryColor);
     color: #fff;
     border-radius: 8px;
+    padding: 12px 35px;
 }
 .hero{
     margin-top: -5%;
@@ -215,15 +231,54 @@ header img{
     transition: .6s ease-in-out;
     color: #fff;
 }
+.main_container{
+    margin: 6% в в 36%;
+    position: relative;
+    width: 25%}
+    
+ .image{
+    display: block;
+    width: 100%;
+    height: auto;
+ }
+    
+ .overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    width: 180%;
+    height: 6;
+    transition: .5s ease;
+ }
+.overlay:hover{
+    height: 100%;
+}
+
 .featured{
     display: flex;
     place-content: center;
     z-index: 2;
     background-color: #676f9d2d;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    background-color: #1A202C;
 }
 .featured img{
     border-radius: inherit;
     z-index: 0;
+}
+.productDiv a img{
+    transform: scale(0.8);
+    transition: 0.8s ease-in-out;
+}
+.productDiv a img:hover{
+    transform: scale(0.9);
 }
 .imageBox{
     padding-bottom: 100px;
@@ -252,4 +307,45 @@ a{
     outline: none;
     color: #fff;
     display: none;
+}
+
+@media screen and (max-width: 600px){
+    
+    .top{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .top .child{
+        width: 100%;
+    }
+    .top .child form input{
+        width: 20em;
+    }
+    .top .topThird a{
+        justify-content: center;
+    }
+    .navbar-toggler{
+        color: var(--secondaryColor);
+        outline: 1px solid var(--secondaryColor);
+       
+    }
+    
+    .navbar-collapse{
+        padding-left: 0px;
+    }
+    .heroimg{
+        display: none;
+    }
+    .productsdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mt-4{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
 }
