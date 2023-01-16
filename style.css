@@ -318,6 +318,22 @@ a{
     color: #fff;
     display: none;
 }
+.btndiv{
+    width: inherit;
+    display: grid;
+    place-content: center;
+    padding: 60px 40px 40px 40px;
+}
+.btndiv button{
+    padding: 14px 25px;
+    background-color: var(--colorTwo);
+    transition: 0.4s ease-in-out;
+    
+}
+.btndiv button:hover{
+    background-color: var(--primaryColor);
+    transform: scale(1.1);
+}
 
 @media screen and (max-width: 600px){
     
