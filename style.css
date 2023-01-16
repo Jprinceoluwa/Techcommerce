@@ -248,6 +248,23 @@ header{
     border-radius: inherit;
     z-index: 0;
 }
+.productDiv{
+    position: relative;
+}
+.productDiv:hover::before{
+    content: "Add to cart";
+        width: 100%;
+        height: 3em;
+        background-color: var(--secondaryColor);
+        position: absolute;
+        right: 0;
+        top: 55%;
+        left: 0;
+        transition: 0.4s ease-in-out;
+        cursor: pointer;
+        display: grid;
+        place-content: center;
+}
 .productDiv a img{
     transform: scale(0.8);
     transition: 0.8s ease-in-out;
@@ -255,26 +272,25 @@ header{
 .productDiv a img:hover{
     transform: scale(0.9);
 }
-.imageBox{
-    padding-bottom: 100px;
-}
 a{
     cursor: pointer;
 }
-.imageBox a img{
-    transform: scale(0.6);
-}
-.imageBox a img:hover{
-    transform: scale(0.75);
-    transition: 0.9s ease-in-out;
-}
-.buybtn{
+/* .buybtn{
     width: 100%;
-    background-color: var(--colorTwo);
-    height: 1px;
-    margin-top: -200px;
-    transition: 0.6s ease-out;
-}
+        height: 20em;
+        background-color: aqua;
+        position: absolute;
+        right: 0;
+        bottom: 0%;
+        left: 0;
+        transition: 0.4s ease;
+      }
+      .buybtn:hover {
+        height: 100%;
+        background-color: #1A202C !important;
+        bottom: 0;
+      } */
+
 .buybtn:hover{
     height: 3em;
 }
