@@ -259,7 +259,7 @@ header{
     content: "Add to cart";
         width: auto;
         height: 3.5em;
-        background-color: var(--colorTwo);
+        background-color: var(--secondaryColor);
         position: absolute;
         right: 0;
         top: 58%;
@@ -310,14 +310,6 @@ a{
     color: var(--primaryColor);
     font-size: 1.2em;
 }
-.buyButton{
-    background-color: #2D3250;
-    padding: 14px 18px;
-    border: none;
-    outline: none;
-    color: #fff;
-    display: none;
-}
 .btndiv{
     width: inherit;
     display: grid;
@@ -326,9 +318,9 @@ a{
 }
 .btndiv button{
     padding: 14px 25px;
-    background-color: var(--colorTwo);
+    background-color: var(--secondaryColor);
     transition: 0.4s ease-in-out;
-    
+    box-shadow: 2px 2px 10px #e8e8e8, -2px -2px 10px #e8e8e8;
 }
 .btndiv button:hover{
     background-color: var(--primaryColor);
@@ -354,6 +346,10 @@ a{
 .glass:hover{
     background: transparent;
     cursor: pointer;
+}
+.testimonial{
+    background-color: var(--colorTwo);
+    
 }
 
 @media screen and (max-width: 600px){
