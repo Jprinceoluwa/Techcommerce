@@ -337,6 +337,9 @@ a{
 .imglass{
     position: relative;
 }
+.imglass img{
+    transform: scale(0.7);
+}
 .glass{
     position: absolute;
     
@@ -346,7 +349,7 @@ a{
     padding: 200px;
     background-color: rgba(23, 13, 112, 0.548);
     backdrop-filter: blur(0px);
-    transition: 0.4s ease;
+    transition: 0.6s ease;
 }
 .glass:hover{
     background: transparent;
