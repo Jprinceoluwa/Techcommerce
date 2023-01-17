@@ -334,6 +334,24 @@ a{
     background-color: var(--primaryColor);
     transform: scale(1.1);
 }
+.imglass{
+    position: relative;
+}
+.glass{
+    position: absolute;
+    
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 200px;
+    background-color: rgba(23, 13, 112, 0.548);
+    backdrop-filter: blur(0px);
+    transition: 0.4s ease;
+}
+.glass:hover{
+    background: transparent;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 600px){
     
