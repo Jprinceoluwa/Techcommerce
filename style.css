@@ -204,19 +204,13 @@ big a:hover{
 .cart:hover{
     background-color: var(--colorTwo);
 }
-.navbar{
-    padding-left: 100px;
-}
-.navbar .container{
-    justify-content: center;
-}
 .navbar-brand img{
     display: block;
     width: 1.5em;
 }
 .navbar-brand{
     display: flex;
-    
+    gap: 10px;
 }
 .navbar-brand span{
     font-size: 1.2em;
