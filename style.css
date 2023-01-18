@@ -8,6 +8,7 @@
 *{
     color: var(--textColor);
     font-family: poppins;
+    
 }
 /* Sign Up Page  */
 .formPage{
@@ -118,6 +119,7 @@ a{
 header{
     width: 100%;
     height: 100vh;
+    
     /* background: url(./img/main\ image.png);
     background-position: center;
     background-size: auto;
@@ -202,13 +204,19 @@ big a:hover{
 .cart:hover{
     background-color: var(--colorTwo);
 }
+.navbar{
+    padding-left: 100px;
+}
+.navbar .container{
+    justify-content: center;
+}
 .navbar-brand img{
     display: block;
     width: 1.5em;
 }
 .navbar-brand{
     display: flex;
-    gap: 10px;
+    
 }
 .navbar-brand span{
     font-size: 1.2em;
@@ -219,7 +227,6 @@ big a:hover{
 .nav-link{
     color: #fff;
 }
-
 .herobtn{
     background-color: var(--secondaryColor);
     color: #fff;
@@ -231,6 +238,7 @@ big a:hover{
 }
 .hero{
     margin-top: -5%;
+    overflow-x: hidden;
 }
 .headline{
     color: var(--secondaryColor);
@@ -354,6 +362,9 @@ a{
 .btndiv button:hover{
     background-color: var(--primaryColor);
     transform: scale(1.1);
+}
+.why{
+    overflow-x: hidden;
 }
 .imglass{
     position: relative;
