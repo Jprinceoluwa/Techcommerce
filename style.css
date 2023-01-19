@@ -396,6 +396,11 @@ a{
     color: var(--secondaryColor);
 }
 
+/* *******************************************************  ABOUT PAGE STARTED *********************************************/
+.aboutHeader{
+    height: 30vh !important;
+}
+
 @media screen and (max-width: 600px){
     
     .top{
