@@ -398,7 +398,31 @@ a{
 
 /* *******************************************************  ABOUT PAGE STARTED *********************************************/
 .aboutHeader{
-    height: 30vh !important;
+    height: 31vh !important;
+    position: fixed;
+    z-index: 1;
+    padding-bottom: 20px;
+}
+.abouthero{
+    padding-top: 220px;
+    background: url(./img/headphone.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    filter: brightness(60%);
+}
+.aboutheadline{
+    font-size: 3.8em;
+    color: var(--secondaryColor);
+    font-family: montserrat;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-shadow: 2px 2px 6px #000;
+    z-index: 1;
+}
+.aboutsub{
+    color: #fff;
+    font-size: 1em;
 }
 
 @media screen and (max-width: 600px){
@@ -439,5 +463,25 @@ a{
         display: grid;
         justify-content: center;
         align-items: center;
+    }
+
+
+    /* *******************************************************  ABOUT PAGE STARTED *********************************************/
+
+    .navsmall{
+        background-color: var(--mainColor);
+        padding-bottom: 20px;
+    }
+    .aboutHeader{
+        height: 45vh !important;
+    }
+    .abouthero{
+        padding-top: 300px;
+    }
+    .aboutheadline{
+        font-size: 2.2em;
+    }
+    .aboutsub{
+        font: 1em;
     }
 }
