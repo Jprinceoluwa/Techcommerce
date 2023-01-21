@@ -7,10 +7,12 @@
     <title>Document</title>
   </head>
   <body>
-    <h1 id="clickme">Click</h1>
     <script>
-      let theClick = document.getElementById("clickme");
-      console.log(theClick.textContent);
+      let arrayOne = [1, 2, 3];
+      let arrayTwo = [4, 5, 6];
+
+      const arrayMerge = [...arrayOne, ...arrayTwo];
+      console.log(arrayMerge);
     </script>
   </body>
 </html>
