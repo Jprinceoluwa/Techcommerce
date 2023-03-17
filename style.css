@@ -411,25 +411,21 @@ a{
     position: relative;
     filter: brightness(60%);
 }
-.aboutheadline{
-    font-size: 3.8em;
-    color: var(--secondaryColor);
-    font-family: montserrat;
-    text-transform: uppercase;
-    font-weight: 800;
-    text-shadow: 2px 2px 6px #000;
-    z-index: 1;
-}
 .aboutsub{
     color: #fff;
     font-size: 1em;
 }
-.title-font{
+.aboutheadline{
     color: #f9b17a;
 }
 .aboutbutt{
     background-color: #f9b17a;
 }
+.aboutimg{
+    margin-top: -20%;
+    transform: scale(0.8);
+}
+
 
 @media screen and (max-width: 600px){
     
