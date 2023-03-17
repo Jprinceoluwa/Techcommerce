@@ -39,7 +39,7 @@
     <style></style>
   </head>
   <body>
-    <header class="text-gray-400 bg-gray-900 body-font mb-6 aboutHeader">
+    <header class="text-gray-400 bg-gray-900 body-font">
       <div class="top">
         <div class="child topFirst">
           <i class="fa-solid fa-phone fa-2x"></i>
@@ -66,7 +66,7 @@
         </div>
       </div>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container navsmall">
+        <div class="container">
           <a class="navbar-brand" href="#"
             ><img src="./img/logo.png" alt="" /> <span>Techcommerce</span></a
           >
@@ -87,7 +87,7 @@
                 <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
+                <a class="nav-link" href="About.html">About</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -97,18 +97,18 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Pages
+                  Products
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">About</a></li>
+                  <li><a class="dropdown-item" href="#">Airpods</a></li>
 
-                  <li><a class="dropdown-item" href="#">FAQs</a></li>
+                  <li><a class="dropdown-item" href="#">Headphone</a></li>
 
                   <li>
-                    <a class="dropdown-item" href="#">Delivery</a>
+                    <a class="dropdown-item" href="#">Smart Watch</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">Cart</a>
+                    <a class="dropdown-item" href="#">Smart Backpack</a>
                   </li>
                 </ul>
               </li>
@@ -127,38 +127,25 @@
           </div>
         </div>
       </nav>
-    </header>
 
-    <section class="text-gray-600 body-font abouthero">
-      <div
-        class="container mx-auto flex px-10 py-24 items-center justify-center flex-col"
-      >
-        <div class="text-center lg:w-2/3 w-full">
-          <h1
-            class="title-font sm:text-4xl text-4xl mb-4 font-medium text-gray-900 aboutheadline"
-          >
-            Welcome to our gadget store!
-          </h1>
-          <p class="mb-8 leading-relaxed aboutsub">
-            We offer a wide variety of the latest and greatest gadgets and
-            technology to suit your needs. From smartphones and laptops, to home
-            appliances and smart home devices, we have it all. <p> We also carry a
-            range of accessories to enhance your gadget experience, including
-            earbuds, headsets, and smart watches. All of our products are of the
-            highest quality and come with a warranty for your peace of mind.
-            Plus, with our competitive prices, you can be sure you're getting
-            the best deal. <p> Browse our selection today and find the perfect
-            gadget to elevate your life. Thanks for visiting our store!</p>
-          </p>
-          <div class="flex justify-center overlay"></div>
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-left">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-left text-left">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium">Welcome to our
+              <br class="hidden lg:inline-block">Gadgets Store
+            </h1>
+            <p class="mb-8 leading-relaxed">We offer a wide variety of the latest and greatest gadgets and technology to suit your needs. From smartphones and laptops, to home appliances and smart home devices, we have it all.</p>
+            <div class="flex justify-center">
+              <button class="inline-flex text-white aboutbutt border-0 py-2 px-12 focus:outline-none hover:bg-indigo-600 rounded text-lg">Explore</button>
+             
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+          </div>
         </div>
-      <!-- </div>
-      <img
-        class="lg:w-full md:w-full w-full mb-10 object-cover object-center rounded"
-        alt="hero"
-        src="./img/headphone.jpg"
-      /> -->
-    </section>
+      </section>
+    </header>
 
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

@@ -424,6 +424,12 @@ a{
     color: #fff;
     font-size: 1em;
 }
+.title-font{
+    color: #f9b17a;
+}
+.aboutbutt{
+    background-color: #f9b17a;
+}
 
 @media screen and (max-width: 600px){
     
