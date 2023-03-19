@@ -115,10 +115,13 @@ a{
 .animationSide img:nth-child(5){
     animation-delay: 40s;
 }
-
+body{
+    overflow-x: hidden;
+}
 header{
     width: 100%;
     height: 100vh;
+    
     
     /* background: url(./img/main\ image.png);
     background-position: center;
@@ -534,7 +537,7 @@ a{
     .heroimg{
         display: none;
     }
-    .hero{
+    .strecth{
         height: 300em;
     }
     .productsdiv{
