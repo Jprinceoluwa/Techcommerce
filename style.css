@@ -577,6 +577,9 @@ a{
         background-color: var(--mainColor);
         padding-bottom: 20px;
     }
+    .aboutimg{
+        display: none;
+    }
     .aboutHeader{
         height: 45vh !important;
     }
