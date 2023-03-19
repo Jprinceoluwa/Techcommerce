@@ -542,6 +542,9 @@ a{
         justify-content: center;
         align-items: center;
     }
+    .flex .herobtn{
+        font-size: 16px;
+    }
     .icons{
         display: flex;
         justify-content: space-around;
