@@ -505,7 +505,7 @@ a{
     .top{
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 35px;
     }
     .top .child{
         width: 100%;
@@ -528,6 +528,9 @@ a{
     .navbar-collapse{
         padding-left: 0px;
     }
+    .headline{
+        font-size: 1.3em;
+    }
     .heroimg{
         display: none;
     }
@@ -543,7 +546,7 @@ a{
         align-items: center;
     }
     .flex .herobtn{
-        font-size: 16px;
+        font-size: 8px;
     }
     .icons{
         display: flex;
