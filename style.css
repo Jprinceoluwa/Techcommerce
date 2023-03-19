@@ -142,7 +142,6 @@ header{
 }
 .texts{
    display: grid;
-   
    align-items: center;
 }
 .texts *{
@@ -506,13 +505,13 @@ a{
     .top{
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
     }
     .top .child{
         width: 100%;
     }
     .top .child form input{
-        width: 20em;
+        width: 15em;
     }
     .top .topThird a{
         justify-content: center;
@@ -521,6 +520,9 @@ a{
         color: var(--secondaryColor);
         outline: 1px solid var(--secondaryColor);
        
+    }
+    .herobtns button{
+        font-size: 16px;
     }
     
     .navbar-collapse{
@@ -539,6 +541,10 @@ a{
         display: grid;
         justify-content: center;
         align-items: center;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-around;
     }
 
 
