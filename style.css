@@ -503,8 +503,8 @@ a{
 @media screen and (max-width: 600px){
     
     .top{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
         gap: 35px;
     }
     .top .child{
@@ -535,7 +535,7 @@ a{
         display: none;
     }
     .hero{
-        height: 30em;
+        height: 300em;
     }
     .productsdiv{
         display: flex;
