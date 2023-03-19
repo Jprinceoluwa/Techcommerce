@@ -534,6 +534,9 @@ a{
     .heroimg{
         display: none;
     }
+    .hero{
+        height: 30em;
+    }
     .productsdiv{
         display: flex;
         flex-direction: column;
@@ -546,7 +549,7 @@ a{
         align-items: center;
     }
     .flex .herobtn{
-        font-size: 8px;
+        font-size: 12px;
     }
     .icons{
         display: flex;
