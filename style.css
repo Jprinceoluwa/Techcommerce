@@ -506,11 +506,9 @@ a{
     display: grid;
     grid-template-columns: repeat(auto-fit, 500px);
     justify-content: space-around;
+    padding: 20px;
 }
-.frame{
-    height: 500px;
-    top: 0%;
-}
+
 .form{
     width: 100%;
 }
